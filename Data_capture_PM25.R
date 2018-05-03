@@ -6,36 +6,39 @@ library(tidyr)
 library(lubridate)
 
 
-setwd("Z:/_SHARED_FOLDERS/Air Quality/Phase 1/Pathflow of Phase I_DG/dawit Data/daily data/")
+setwd('Z:/_SHARED_FOLDERS/Air Quality/Phase 2/AQ_TIDY_Data/OUTPUT_DB_Data/Daily_Mean/Daily_Filtered_4_Box')
 # setwd("C:/Users/fkaragulian/Dropbox/daily data/")
 
 # data capture --------------------------------------------------
 
- EAD_data_2013 <- read_csv("Daily filtered with 4 boxplot/database_EAD_ 2013 _daily_filtered.csv")
- EAD_data_2014 <- read_csv("Daily filtered with 4 boxplot/database_EAD_ 2014 _daily_filtered.csv")
- EAD_data_2015 <- read_csv("Daily filtered with 4 boxplot/database_EAD_ 2015 _daily_filtered.csv")
- EAD_data_2016 <- read_csv("Daily filtered with 4 boxplot/database_EAD_ 2016 _daily_filtered.csv")
+ EAD_data_2013 <- read_csv("database_EAD_ 2013 _daily_filtered.csv")
+ EAD_data_2014 <- read_csv("database_EAD_ 2014 _daily_filtered.csv")
+ EAD_data_2015 <- read_csv("database_EAD_ 2015 _daily_filtered.csv")
+ EAD_data_2016 <- read_csv("database_EAD_ 2016 _daily_filtered.csv")
+ EAD_data_2017 <- read_csv("database_EAD_ 2017 _daily_filtered.csv")
  
- DM_data_2013 <- read_csv("Daily filtered with 4 boxplot/database_DM_ 2013 _daily_filtered.csv")
- DM_data_2014 <- read_csv("Daily filtered with 4 boxplot/database_DM_ 2014 _daily_filtered.csv")
- DM_data_2015 <- read_csv("Daily filtered with 4 boxplot/database_DM_ 2015 _daily_filtered.csv")
- DM_data_2016 <- read_csv("Daily filtered with 4 boxplot/database_DM_ 2016 _daily_filtered.csv")
+ DM_data_2013 <- read_csv("database_DM_ 2013 _daily_filtered.csv")
+ DM_data_2014 <- read_csv("database_DM_ 2014 _daily_filtered.csv")
+ DM_data_2015 <- read_csv("database_DM_ 2015 _daily_filtered.csv")
+ DM_data_2016 <- read_csv("database_DM_ 2016 _daily_filtered.csv")
+ DM_data_2017 <- read_csv("database_DM_ 2017 _daily_filtered.csv")
  
- NCMS_data_2013 <- read_csv("Daily filtered with 4 boxplot/database_NCMS_ 2013 _daily_filtered.csv")
- NCMS_data_2014 <- read_csv("Daily filtered with 4 boxplot/database_NCMS_ 2014 _daily_filtered.csv")
- NCMS_data_2015 <- read_csv("Daily filtered with 4 boxplot/database_NCMS_ 2015 _daily_filtered.csv")
- NCMS_data_2016 <- read_csv("Daily filtered with 4 boxplot/database_NCMS_ 2016 _daily_filtered.csv")
+ NCMS_data_2013 <- read_csv("database_NCMS_ 2013 _daily_filtered.csv")
+ NCMS_data_2014 <- read_csv("database_NCMS_ 2014 _daily_filtered.csv")
+ NCMS_data_2015 <- read_csv("database_NCMS_ 2015 _daily_filtered.csv")
+ NCMS_data_2016 <- read_csv("database_NCMS_ 2016 _daily_filtered.csv")
+ NCMS_data_2017 <- read_csv("database_NCMS_ 2017 _daily_filtered.csv")
 
-AQ_data <- rbind(EAD_data_2013, EAD_data_2014, EAD_data_2015, EAD_data_2016, 
-                 DM_data_2013, DM_data_2014, DM_data_2015, DM_data_2016,
-                 NCMS_data_2013, NCMS_data_2014, NCMS_data_2015, NCMS_data_2016)
+AQ_data <- rbind(EAD_data_2013, EAD_data_2014, EAD_data_2015, EAD_data_2016, EAD_data_2017,
+                 DM_data_2013, DM_data_2014, DM_data_2015, DM_data_2016, DM_data_2017,
+                 NCMS_data_2013, NCMS_data_2014, NCMS_data_2015, NCMS_data_2016, NCMS_data_2017)
 
 
 # replace NaN (not a Number with NA that is a missing value)
 #### changing the names of the colomns and deleting unwanted fields
 
 AQ_data[sapply(AQ_data,is.na)] = NA
-colnames(AQ_data)[12] <- "Cap"
+colnames(AQ_data)[11] <- "Cap"
 AQ_data<- AQ_data %>%
   select(-X1, -X1_1)
 
@@ -86,7 +89,7 @@ aaa <- data$Cap < 75
 dawit <- which(aaa, arr.ind = TRUE, useNames = TRUE)
 data$Daily_mean[dawit]<- NA
 
-data$Cap_bin <- as.data.frame()
+
 for (i in 1:nrow(data)){
   if (data$Cap[i] >= 75){
     data$Cap_bin[i] <- 1
@@ -95,6 +98,7 @@ for (i in 1:nrow(data)){
     data$Cap_bin[i]<-0
   }
 }
+
 data$one <-1
 
 # look at data capture in each quarter
@@ -197,8 +201,20 @@ All_quarters$annual_AVG <- round(rowMeans(All_quarters[ ,3:6], na.rm = TRUE), di
 # replace NaN (not a Number with NA that is a missing value)
 All_quarters[sapply(All_quarters,is.na)] = NA
 
-write.csv(All_quarters, "Annual_means_Quarters_PM2_5_new.csv", row.names=FALSE)
+write.csv(All_quarters, "Z:/_SHARED_FOLDERS/Air Quality/Phase 2/AQ_TIDY_Data/OUTPUT_DB_Data/AQ_Stats/Annual_means_Quarters_PM2_5_new.csv", row.names=FALSE)
 
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
+##########################################################################################################################
 
 #### three year average 
 
@@ -222,7 +238,7 @@ mean_3y_df<- mean_3y_df[,-1]
 
 mean_3year<-gather(mean_3y_df, key= "Site" , value="mean")
 
-write.csv(mean_3year, "Annual_means_average_2013_2016_PM2_5.csv", row.names=FALSE)
+write.csv(mean_3year, "Z:/_SHARED_FOLDERS/Air Quality/Phase 2/AQ_TIDY_Data/OUTPUT_DB_Data/AQ_Stats/Annual_means_average_2013_2017_PM2_5.csv", row.names=FALSE)
 
 #####
 
@@ -279,7 +295,7 @@ daily_24_pm <- function (data, site, years_to_cons) {
 
 data<-AQ_data
 
-years_to_cons<- c(2014, 2015, 2016)
+years_to_cons<- c(2013,2014, 2015, 2016,2017)
 names_site<- unique(data$Site)
 maximum_daily<- data.frame()
 maximum_daily_year<-data.frame()
@@ -293,5 +309,5 @@ maximum_daily_year<-rbind(maximum_daily_year,mean_year)
 }
 
 
-write.csv(maximum_daily, "24hr_PM2_5_years.csv", row.names=FALSE)
-write.csv(maximum_daily_year, "24hr_PM2_5.csv", row.names=FALSE)
+write.csv(maximum_daily, "Z:/_SHARED_FOLDERS/Air Quality/Phase 2/AQ_TIDY_Data/OUTPUT_DB_Data/AQ_Stats/24hr_PM2_5_years.csv", row.names=FALSE)
+write.csv(maximum_daily_year, "Z:/_SHARED_FOLDERS/Air Quality/Phase 2/AQ_TIDY_Data/OUTPUT_DB_Data/AQ_Stats/24hr_PM2_5.csv", row.names=FALSE)
