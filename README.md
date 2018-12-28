@@ -1,1 +1,2 @@
 # Masdar-Air-Quality
+## An ensemble of R scripts to process air quality data organized in a database format. The proposed scripts are intented to carry out summary statistics, daily averages and, 8-hour averages according to the Air Quality directives. In this repository I also show how to setup interactive time-series to be embedded into an air quality website. This work is ideal to prepare air quality reports at institutional level.
