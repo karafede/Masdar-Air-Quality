@@ -22,3 +22,20 @@ Other scripts reported in this repository include:
 
 Please hit me up should you need further clarifications
 
+## Air Quality Index (Air Quality Levels)
+Air quality indexes have been calculated using the US-EPA formula reported in this link (look at the US section: https://en.wikipedia.org/wiki/Air_quality_index. 
+Please take some time to understand how the AQIs are calculated. Also, have a look at the units and time-frame, used for each of the 6 pollutants (PM10, PM2.5, CO, O3, NO2 and SO2) necessary to compute the AQIs.
+1)	The code <strong> AQI_UAE_new.R </strong> prepares the AQ data to be processed to calculate AQIs. In this script, data are converted to the right units required to calculated the AQIs (conversion from g/m3 or mg/m3 to ppb/ppm according to AQI formula). 
+O3: 1ppb = 1.96 ug/m3
+CO: 1ppm = 1.15 mg/m3
+SO2: 1ppb = 2.62 ug/m3
+NO2: 1ppb = 1.88 ug/m3
+At the end, a unique dataset is generated and contains all pollutant concentrations from all years at different temporal resolutions (24h or 8h) and it is named as <strong> AQ_data_all_clean_24h_new.Rdata </strong>. 
+
+Please spend some time to understand the operation of each code.
+
+2)	The algorithm for the calculation of the AQIs is implemented in the function aqi_fun_UAE.R that it is used in the script <strong> AQI_short_UAE_new.R </strong> to calculate the AQIs and to plot them in bar-plots.
+
+## you can customize the AQI script according to the threshold levels you wish to setup.
+
+
