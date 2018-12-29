@@ -1,0 +1,49 @@
+Site,Site Type,Latitude,Longitude,Emirate,Authority,Pollutant
+Al Hamriyah,Industrial,25.45524177,56.00091463,Sharjah,NCMS,SO2
+Al Hamriyah,Industrial,25.45524177,56.00091463,Sharjah,NCMS,NO2
+Al Hamriyah,Industrial,25.45524177,56.00091463,Sharjah,NCMS,O3
+Al Hamriyah,Industrial,25.45524177,56.00091463,Sharjah,NCMS,CO
+Al Hamriyah,Industrial,25.45524177,56.00091463,Sharjah,NCMS,PM10
+Al Hamriyah,Industrial,25.45524177,56.00091463,Sharjah,NCMS,PM2.5
+Kalba,Residential,25.07049123,56.32918572,Fujairah,NCMS,SO2
+Kalba,Residential,25.07049123,56.32918572,Fujairah,NCMS,NO2
+Kalba,Residential,25.07049123,56.32918572,Fujairah,NCMS,O3
+Kalba,Residential,25.07049123,56.32918572,Fujairah,NCMS,CO
+Kalba,Residential,25.07049123,56.32918572,Fujairah,NCMS,PM10
+Kalba,Residential,25.07049123,56.32918572,Fujairah,NCMS,PM2.5
+Rashidyah,Residential,25.39947795,55.50784731,Dubai,NCMS,SO2
+Rashidyah,Residential,25.39947795,55.50784731,Dubai,NCMS,NO2
+Rashidyah,Residential,25.39947795,55.50784731,Dubai,NCMS,O3
+Rashidyah,Residential,25.39947795,55.50784731,Dubai,NCMS,CO
+Rashidyah,Residential,25.39947795,55.50784731,Dubai,NCMS,PM10
+Rashidyah,Residential,25.39947795,55.50784731,Dubai,NCMS,PM2.5
+Mushairif,Residential,25.40044399,55.46660385,Abu Dhabi,NCMS,SO2
+Mushairif,Residential,25.40044399,55.46660385,Abu Dhabi,NCMS,NO2
+Mushairif,Residential,25.40044399,55.46660385,Abu Dhabi,NCMS,O3
+Mushairif,Residential,25.40044399,55.46660385,Abu Dhabi,NCMS,CO
+Mushairif,Residential,25.40044399,55.46660385,Abu Dhabi,NCMS,PM10
+Mushairif,Residential,25.40044399,55.46660385,Abu Dhabi,NCMS,PM2.5
+Al Jeer,Residential,26.03305339,56.10978413,Ras Al Khaimah,NCMS,SO2
+Al Jeer,Residential,26.03305339,56.10978413,Ras Al Khaimah,NCMS,NO2
+Al Jeer,Residential,26.03305339,56.10978413,Ras Al Khaimah,NCMS,O3
+Al Jeer,Residential,26.03305339,56.10978413,Ras Al Khaimah,NCMS,CO
+Al Jeer,Residential,26.03305339,56.10978413,Ras Al Khaimah,NCMS,PM2.5
+Al Jeer,Residential,26.03305339,56.10978413,Ras Al Khaimah,NCMS,PM10
+Burairat,Residential,25.78242434,56.00351534,Ras Al Khaimah,NCMS,SO2
+Burairat,Residential,25.78242434,56.00351534,Ras Al Khaimah,NCMS,NO2
+Burairat,Residential,25.78242434,56.00351534,Ras Al Khaimah,NCMS,CO
+Burairat,Residential,25.78242434,56.00351534,Ras Al Khaimah,NCMS,O3
+Burairat,Residential,25.78242434,56.00351534,Ras Al Khaimah,NCMS,PM2.5
+Burairat,Residential,25.78242434,56.00351534,Ras Al Khaimah,NCMS,PM10
+Al Qasimiyah,Residential,25.79208305,55.94676378,Sharjah,NCMS,SO2
+Al Qasimiyah,Residential,25.79208305,55.94676378,Sharjah,NCMS,NO2
+Al Qasimiyah,Residential,25.79208305,55.94676378,Sharjah,NCMS,PM2.5
+Al Qasimiyah,Residential,25.79208305,55.94676378,Sharjah,NCMS,O3
+Al Qasimiyah,Residential,25.79208305,55.94676378,Sharjah,NCMS,CO
+Al Qasimiyah,Residential,25.79208305,55.94676378,Sharjah,NCMS,PM10
+Ghalilah,Residential,25.99972201,56.07875231,Ras Al Khaimah,NCMS,SO2
+Ghalilah,Residential,25.99972201,56.07875231,Ras Al Khaimah,NCMS,NO2
+Ghalilah,Residential,25.99972201,56.07875231,Ras Al Khaimah,NCMS,O3
+Ghalilah,Residential,25.99972201,56.07875231,Ras Al Khaimah,NCMS,CO
+Ghalilah,Residential,25.99972201,56.07875231,Ras Al Khaimah,NCMS,PM10
+Ghalilah,Residential,25.99972201,56.07875231,Ras Al Khaimah,NCMS,PM2.5

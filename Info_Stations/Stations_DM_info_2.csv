@@ -1,0 +1,96 @@
+Site,Site Type,Latitude,Longitude,Emirate,Authority,Pollutant
+Deira,Urban Background,25.267513,55.313147,Dubai,DM,SO2
+Deira,Urban Background,25.267513,55.313147,Dubai,DM,NO2
+Deira,Urban Background,25.267513,55.313147,Dubai,DM,O3
+Deira,Urban Background,25.267513,55.313147,Dubai,DM,CO
+Deira,Urban Background,25.267513,55.313147,Dubai,DM,PM10
+Deira,Urban Background,25.267513,55.313147,Dubai,DM,PM2.5
+Karama,Urban Background,25.25066,55.3067,Dubai,DM,SO2
+Karama,Urban Background,25.25066,55.3067,Dubai,DM,NO2
+Karama,Urban Background,25.25066,55.3067,Dubai,DM,CO
+Karama,Urban Background,25.25066,55.3067,Dubai,DM,O3
+Karama,Urban Background,25.25066,55.3067,Dubai,DM,PM2.5
+Karama,Urban Background,25.25066,55.3067,Dubai,DM,PM10
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,SO2
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,NO2
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,O3
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,CO
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,PM2.5
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,PM10
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,Lower Ambient Temperature
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,RelativeHumidity
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,Wind Direction
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,Wind Speed
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,H2S
+Zabeel,Urban Background,25.236311,55.2986,Dubai,DM,Noise
+Safa,NaN,25.18832265,55.24624431,Dubai,DM,SO2
+Safa,NaN,25.18832265,55.24624431,Dubai,DM,NO2
+Safa,NaN,25.18832265,55.24624431,Dubai,DM,O3
+Safa,NaN,25.18832265,55.24624431,Dubai,DM,CO
+Safa,NaN,25.18832265,55.24624431,Dubai,DM,PM10
+Safa,NaN,25.18832265,55.24624431,Dubai,DM,PM2.5
+Jebel Ali Village,Urban Background,25.029127,55.112886,Dubai,DM,SO2
+Jebel Ali Village,Urban Background,25.029127,55.112886,Dubai,DM,NO2
+Jebel Ali Village,Urban Background,25.029127,55.112886,Dubai,DM,O3
+Jebel Ali Village,Urban Background,25.029127,55.112886,Dubai,DM,PM2.5
+Jebel Ali Village,Urban Background,25.029127,55.112886,Dubai,DM,PM10
+Jebel Ali Village,Urban Background,25.029127,55.112886,Dubai,DM,CO
+Emirates Hills,Urban Background,25.07444756,55.15957787,Dubai,DM,SO2
+Emirates Hills,Urban Background,25.07444756,55.15957787,Dubai,DM,NO2
+Emirates Hills,Urban Background,25.07444756,55.15957787,Dubai,DM,O3
+Emirates Hills,Urban Background,25.07444756,55.15957787,Dubai,DM,CO
+Emirates Hills,Urban Background,25.07444756,55.15957787,Dubai,DM,PM10
+Emirates Hills,Urban Background,25.07444756,55.15957787,Dubai,DM,PM2.5
+Dubai Airport,Urban Background,25.2473,55.386216,Dubai,DM,SO2
+Dubai Airport,Urban Background,25.2473,55.386216,Dubai,DM,NO2
+Dubai Airport,Urban Background,25.2473,55.386216,Dubai,DM,CO
+Dubai Airport,Urban Background,25.2473,55.386216,Dubai,DM,PM10
+Dubai Airport,Urban Background,25.2473,55.386216,Dubai,DM,O3
+Dubai Airport,Urban Background,25.2473,55.386216,Dubai,DM,PM2.5
+Mushrif,Near City Background,25.219952,55.456969,Dubai,DM,NO2
+Mushrif,Near City Background,25.219952,55.456969,Dubai,DM,O3
+Mushrif,Near City Background,25.219952,55.456969,Dubai,DM,PM10
+Mushrif,Near City Background,25.219952,55.456969,Dubai,DM,PM2.5
+Mushrif,Near City Background,25.219952,55.456969,Dubai,DM,Upper Ambient Temperature
+Mushrif,Near City Background,25.219952,55.456969,Dubai,DM,RelativeHumidity
+Mushrif,Near City Background,25.219952,55.456969,Dubai,DM,Wind Direction
+Mushrif,Near City Background,25.219952,55.456969,Dubai,DM,Wind Speed
+Hatta,Near City Background,24.817666,56.131755,Dubai,DM,SO2
+Hatta,Near City Background,24.817666,56.131755,Dubai,DM,NO2
+Hatta,Near City Background,24.817666,56.131755,Dubai,DM,O3
+Hatta,Near City Background,24.817666,56.131755,Dubai,DM,PM10
+Hatta,Near City Background,24.817666,56.131755,Dubai,DM,PM2.5
+Hatta,Near City Background,24.817666,56.131755,Dubai,DM,Upper Ambient Temperature
+Hatta,Near City Background,24.817666,56.131755,Dubai,DM,RelativeHumidity
+Hatta,Near City Background,24.817666,56.131755,Dubai,DM,Wind Direction
+Hatta,Near City Background,24.817666,56.131755,Dubai,DM,Wind Speed
+Jebel Ali Port,Industrial,25.007725,55.084366,Dubai,DM,SO2
+Jebel Ali Port,Industrial,25.007725,55.084366,Dubai,DM,NO2
+Jebel Ali Port,Industrial,25.007725,55.084366,Dubai,DM,CO
+Jebel Ali Port,Industrial,25.007725,55.084366,Dubai,DM,PM10
+Jebel Ali Port,Industrial,25.007725,55.084366,Dubai,DM,PM2.5
+Jebel Ali Port,Industrial,25.007725,55.084366,Dubai,DM,Upper Ambient Temperature
+Jebel Ali Port,Industrial,25.007725,55.084366,Dubai,DM,RelativeHumidity
+Jebel Ali Port,Industrial,25.007725,55.084366,Dubai,DM,Wind Direction
+Jebel Ali Port,Industrial,25.007725,55.084366,Dubai,DM,Wind Speed
+Warsan,Industrial,25.1566,55.425661,Dubai,DM,SO2
+Warsan,Industrial,25.1566,55.425661,Dubai,DM,NO2
+Warsan,Industrial,25.1566,55.425661,Dubai,DM,O3
+Warsan,Industrial,25.1566,55.425661,Dubai,DM,Upper Ambient Temperature
+Warsan,Industrial,25.1566,55.425661,Dubai,DM,RelativeHumidity
+Warsan,Industrial,25.1566,55.425661,Dubai,DM,PM10
+Warsan,Industrial,25.1566,55.425661,Dubai,DM,PM2.5
+Warsan,Industrial,25.1566,55.425661,Dubai,DM,Wind Direction
+Warsan,Industrial,25.1566,55.425661,Dubai,DM,Wind Speed
+SHK.Zayed Road,Traffic,25.15633,55.22745,Dubai,DM,SO2
+SHK.Zayed Road,Traffic,25.15633,55.22745,Dubai,DM,NO2
+SHK.Zayed Road,Traffic,25.15633,55.22745,Dubai,DM,CO
+SHK.Zayed Road,Traffic,25.15633,55.22745,Dubai,DM,O3
+SHK.Zayed Road,Traffic,25.15633,55.22745,Dubai,DM,PM2.5
+SHK.Zayed Road,Traffic,25.15633,55.22745,Dubai,DM,PM10
+SHK. Mohd. Bin Zayed Road,Urban Traffic,25.057713,55.270872,Dubai,DM,SO2
+SHK. Mohd. Bin Zayed Road,Urban Traffic,25.057713,55.270872,Dubai,DM,NO2
+SHK. Mohd. Bin Zayed Road,Urban Traffic,25.057713,55.270872,Dubai,DM,CO
+SHK. Mohd. Bin Zayed Road,Urban Traffic,25.057713,55.270872,Dubai,DM,PM10
+SHK. Mohd. Bin Zayed Road,Urban Traffic,25.057713,55.270872,Dubai,DM,PM2.5
+SHK. Mohd. Bin Zayed Road,Urban Traffic,25.057713,55.270872,Dubai,DM,O3

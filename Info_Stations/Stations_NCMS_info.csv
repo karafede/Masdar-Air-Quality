@@ -1,0 +1,66 @@
+Site,Site Type,Latitude,Longitude,Emirate,Authority,Pollutant
+Al Hamriyah,NaN,25.45524177,56.00091463,Sharjah,NCMS,SO2
+Al Hamriyah,NaN,25.45524177,56.00091463,Sharjah,NCMS,NO2
+Al Hamriyah,NaN,25.45524177,56.00091463,Sharjah,NCMS,CO
+Kalba,NaN,25.07049123,56.32918572,Fujairah,NCMS,SO2
+Kalba,NaN,25.07049123,56.32918572,Fujairah,NCMS,NO2
+Kalba,NaN,25.07049123,56.32918572,Fujairah,NCMS,O3
+Kalba,NaN,25.07049123,56.32918572,Fujairah,NCMS,CO
+Kalba,NaN,25.07049123,56.32918572,Fujairah,NCMS,PM2.5
+Rashidyah,NaN,25.39947795,55.50784731,Dubai,NCMS,SO2
+Rashidyah,NaN,25.39947795,55.50784731,Dubai,NCMS,NO2
+Rashidyah,NaN,25.39947795,55.50784731,Dubai,NCMS,O3
+Rashidyah,NaN,25.39947795,55.50784731,Dubai,NCMS,CO
+Elderly House,NaN,25.40044399,55.46660385,Abu Dhabi,NCMS,SO2
+Elderly House,NaN,25.40044399,55.46660385,Abu Dhabi,NCMS,NO2
+Elderly House,NaN,25.40044399,55.46660385,Abu Dhabi,NCMS,O3
+Elderly House,NaN,25.40044399,55.46660385,Abu Dhabi,NCMS,CO
+Al Jeer,NaN,26.03305339,56.10978413,Ras Al Khaimah,NCMS,SO2
+Al Jeer,NaN,26.03305339,56.10978413,Ras Al Khaimah,NCMS,NO2
+Al Jeer,NaN,26.03305339,56.10978413,Ras Al Khaimah,NCMS,CO
+Al Jeer,NaN,26.03305339,56.10978413,Ras Al Khaimah,NCMS,PM10
+Burairat,NaN,25.78242434,56.00351534,Ras Al Khaimah,NCMS,SO2
+Burairat,NaN,25.78242434,56.00351534,Ras Al Khaimah,NCMS,NO2
+Burairat,NaN,25.78242434,56.00351534,Ras Al Khaimah,NCMS,CO
+Burairat,NaN,25.78242434,56.00351534,Ras Al Khaimah,NCMS,PM10
+Al Qasimiyah,NaN,25.79208305,55.94676378,Sharjah,NCMS,SO2
+Al Qasimiyah,NaN,25.79208305,55.94676378,Sharjah,NCMS,NO2
+Al Qasimiyah,NaN,25.79208305,55.94676378,Sharjah,NCMS,CO
+Al Qasimiyah,NaN,25.79208305,55.94676378,Sharjah,NCMS,PM10
+Ghalilah,NaN,25.99972201,56.07875231,Ras Al Khaimah,NCMS,SO2
+Ghalilah,NaN,25.99972201,56.07875231,Ras Al Khaimah,NCMS,NO2
+Ghalilah,NaN,25.99972201,56.07875231,Ras Al Khaimah,NCMS,O3
+Ghalilah,NaN,25.99972201,56.07875231,Ras Al Khaimah,NCMS,CO
+Ghalilah,NaN,25.99972201,56.07875231,Ras Al Khaimah,NCMS,PM10
+Ghalilah,NaN,25.99972201,56.07875231,Ras Al Khaimah,NCMS,UpperAmbientTemperature
+Ghalilah,NaN,25.99972201,56.07875231,Ras Al Khaimah,NCMS,WindDirection
+Ghalilah,NaN,25.99972201,56.07875231,Ras Al Khaimah,NCMS,WindSpeed
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,SO2
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,NO2
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,O3
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,CO
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,PM10
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,UpperAmbientTemperature
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,BarometricPressure
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,RelativeHumidity
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,WindDirection
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,WindSpeed
+Wasit,NaN,25.34862,55.463715,Sharjah,NCMS,H2S
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,SO2
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,NO2
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,O3
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,CO
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,PM10
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,PM2.5
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,WindDirection
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,WindSpeed
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,H2S
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,H2S
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,Toluene
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,O_Xylene
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,EthylBenzene
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,mp_xylene_
+Al Qurayaa station,NaN,25.14119,56.22027,Fujjairah,NCMS,Benzene
+Fujjairah City Center,NaN,25.127144,56.333774,Fujjairah,NCMS,SO2
+Fujjairah City Center,NaN,25.127144,56.333774,Fujjairah,NCMS,NO2
+Fujjairah City Center,NaN,25.127144,56.333774,Fujjairah,NCMS,O3
