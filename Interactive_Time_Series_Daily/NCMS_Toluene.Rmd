@@ -1,0 +1,74 @@
+
+---
+title: "**Toluene from National Center of Meteorology & Seismology (NCMS) stations in the UAE**"
+output:
+  html_document:
+    fig_height: 2.5
+    fig_width: 9.5
+    theme: flatly
+---
+
+```{r set_up, message = FALSE, echo = FALSE, warning = FALSE}
+library(threadr)
+library(dygraphs)
+library(tidyr)
+library(leaflet)
+library(readr)
+library(shiny)
+
+# Load custom functions
+
+source("get_data_NCMS.R")
+
+# Time of script running
+date_generation <- str_c("Data queried at ", Sys.time(), ".")
+```
+# 
+
+## 
+```{r import_data, message = FALSE, echo = FALSE, results = "hide", cache = TRUE, warning = FALSE}
+
+# Site string
+pollutant <- "Toluene"
+
+# Get data from all the station
+time_series_AlQurayaastation <- get_measurement_time_series("Al Qurayaa station", pollutant)
+```
+
+ `Daily data from all the monitoring stations measuring the pollutant`
+ 
+# 
+
+## 
+
+```{r plot_EAD_LAT, echo = FALSE, cache = TRUE}
+# Message
+date_generation
+
+# Plot
+interactive_plot(time_series_AlQurayaastation, station = "Al Qurayaa station", group = pollutant, pollu="Toluene")
+
+
+```
+
+
+```{r import_data_for_map, message = FALSE, echo = FALSE, results = "hide", cache = TRUE}
+
+# Get site locations
+
+coord_site <- get_sites(var = "Toluene")
+
+```
+#
+```
+#
+ 
+##
+
+```{r map, fig.height = 8, echo = FALSE, message = FALSE, cache = TRUE}
+# Build map
+interactive_map(coord_site)
+```
+
+ 
+ 

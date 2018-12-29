@@ -1,0 +1,14 @@
+output_dir: '.'
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    mathjax: ~
+    toc: no
+    toc_depth: 3
+    toc_float:
+      collapsed: yes
+    lib_dir: site_libs
+    self_contained: no
+name: Interactive_Time_Series
+
