@@ -6,7 +6,7 @@ See below for more information about the files contained in this repository:
 Information about the location and number of monitoring stations are contained in these .csv files Stations_EAD_info_2.csv, Stations_DM_info_2.csv, Stations_NCMS_info_2.csv and excel files Stations_EAD_2.xlsx, Stations_DM_2.xlsx, Stations_NCMS_2.xlsx that also contains pollutant concentration units.
 Use the <strong> RunTheGui_1.R </strong> User Interface (UI) script to convert all data from the .xlsx spreadsheets into .csv (Data Base format (DB)). The RunTheGui_1.R script use the <strong> .First.R </strong> script to process all data (conversion from xlsx to .cvs files – DB format).
 
-To build interactive time-series choose among the 3 scripts  <strong> get_data_EAD.R  </strong>,  <strong> get_data_DM.R  </strong>,  <strong> get_data_NCMS.R </strong> to generate time series from the .csv files (DB format) obtained with the  <strong> .First.R  <strong> GUI.
+To build interactive time-series choose among the 3 scripts  <strong> get_data_EAD.R  </strong>,  <strong> get_data_DM.R  </strong>,  <strong> get_data_NCMS.R </strong> to generate time series from the .csv files (DB format) obtained with the  <strong> .First.R  </strong> GUI.
   
 R Markdown scripts, such as  <strong> EAD_SO2.RMD  </strong>, are created for each variable. These scripts can be opened in R but they need to run under an R project (read something about it on the web). Once one (any) of the .RMD is open in the R project environment, then you can click on the button “Build Website”. This will start generating .html files containing time-series of each variables (pollutant or met parameter) for all the monitoring sites.
 
